@@ -1,11 +1,11 @@
-# revision 30488
+# revision 31965
 # category Package
 # catalog-ctan /macros/latex/contrib/etoc
-# catalog-date 2013-04-06 14:04:53 +0200
+# catalog-date 2013-10-21 18:54:36 +0200
 # catalog-license lppl1.2
-# catalog-version 1.07f
+# catalog-version 1.07i
 Name:		texlive-etoc
-Version:	1.07f
+Version:	1.07i
 Release:	1
 Summary:	Completely customisable TOCs
 Group:		Publishing
@@ -49,6 +49,7 @@ may be used arbitrarily many times in the same document, while
 %{_texmfdistdir}/tex/latex/etoc/etoc.sty
 %doc %{_texmfdistdir}/doc/latex/etoc/README
 %doc %{_texmfdistdir}/doc/latex/etoc/etoc.pdf
+%doc %{_texmfdistdir}/doc/latex/etoc/etoc.tex
 #- source
 %doc %{_texmfdistdir}/source/latex/etoc/etoc.dtx
 %doc %{_texmfdistdir}/source/latex/etoc/etoc.ins
