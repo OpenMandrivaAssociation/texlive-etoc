@@ -6,7 +6,7 @@
 # catalog-version 1.07i
 Name:		texlive-etoc
 Version:	1.07i
-Release:	2
+Release:	3
 Summary:	Completely customisable TOCs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etoc
