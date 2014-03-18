@@ -1,11 +1,11 @@
-# revision 32310
+# revision 33118
 # category Package
 # catalog-ctan /macros/latex/contrib/etoc
-# catalog-date 2013-12-03 19:56:27 +0100
+# catalog-date 2014-03-07 10:32:30 +0100
 # catalog-license lppl1.2
-# catalog-version 1.07j
+# catalog-version 1.07k
 Name:		texlive-etoc
-Version:	1.07j
+Version:	1.07k
 Release:	1
 Summary:	Completely customisable TOCs
 Group:		Publishing
