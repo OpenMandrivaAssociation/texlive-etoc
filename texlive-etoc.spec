@@ -1,5 +1,5 @@
 Name:		texlive-etoc
-Version:	1.08o
+Version:	1.08p
 Release:	1
 Summary:	Completely customisable TOCs
 Group:		Publishing
