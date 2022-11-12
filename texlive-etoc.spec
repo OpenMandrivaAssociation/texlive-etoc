@@ -1,13 +1,13 @@
 Name:		texlive-etoc
-Version:	1.09
+Version:	64249
 Release:	1
 Summary:	Completely customisable TOCs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etoc
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoc.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoc.doc.tar.xz
-Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoc.source.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoc.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoc.doc.r%{version}.tar.xz
+Source2:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoc.source.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -31,12 +31,12 @@ may be used arbitrarily many times in the same document, while
 \localtableofcontents provides a 'local' table of contents.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -47,7 +47,8 @@ may be used arbitrarily many times in the same document, while
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1 -a2
+%setup -c -a1 -a2
+%autopatch -p1
 
 %build
 
