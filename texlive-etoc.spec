@@ -1,6 +1,6 @@
 Name:		texlive-etoc
 Version:	64249
-Release:	1
+Release:	2
 Summary:	Completely customisable TOCs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etoc
