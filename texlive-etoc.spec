@@ -3,7 +3,7 @@ Version:	69343
 Release:	1
 Summary:	Completely customisable TOCs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/etoc
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/etoc
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/etoc.doc.r%{version}.tar.xz
